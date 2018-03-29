@@ -1,6 +1,5 @@
 # Module: Meteoblue Forecast
-This module displays weather forecast from www.meteoblue.com.
-The weather's APIBase ist www.meteoblue.com
+This module displays weather forecast from www.meteoblue.com, showing low and high temperatures and wind speed, rain probability and UV index.
 
 You'll have to get an apikey from meteoblue.com.
 https://content.meteoblue.com/en/products/meteoblue-api
@@ -22,9 +21,10 @@ modules: [
       city: 'Oberrieden',
       lat: '47.2744',
       lon: '8.5784',
-      asl: '464'
-		}
-	},
+      daysAhead: 4,        // days displayed, in rows
+      updateInterval: 60 * 60 * 1000, // every 60 minutes
+    }
+  },
 ]
 ````
 

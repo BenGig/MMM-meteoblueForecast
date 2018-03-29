@@ -275,14 +275,6 @@ Module.register("MMM-meteoblueForecast",{
     return 12;
   },
   
-  /* function(temperature)
-   * Rounds a temperature to 1 decimal.
-   *
-   * argument temperature number - Temperature.
-   *
-   * return number - Rounded Temperature.
-   */
-  
   deg2Cardinal: function(deg) {
     if (deg>11.25 && deg<33.75){
       return "NNE";
@@ -319,7 +311,14 @@ Module.register("MMM-meteoblueForecast",{
     }
   },
   
-    
+  /* function(temperature)
+   * Rounds a temperature to 1 decimal.
+   *
+   * argument temperature number - Temperature.
+   *
+   * return number - Rounded Temperature.
+   */
+      
   roundValue: function(temperature) {
     return parseFloat(temperature).toFixed(1);
   }
