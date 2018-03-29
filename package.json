@@ -1,0 +1,27 @@
+{
+  "name": "Magic-Mirror-Module-meteoblueForecast",
+  "version": "1.0.0",
+  "description": "Magic Mirror module for weather forecast from meteoblue.com (Swiss weather service).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenGig/MMM-meteoblueForecast"
+  },
+  "keywords": [
+    "magic mirror",
+    "smart mirror",
+    "forecast",
+    "weather",
+    "module"
+  ],
+  "author": "Bengt Giger",
+  "contributors": "https://github.com/BenGig/MMM-meteoblueForecast/graphs/contributors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BenGig/MMM-meteoblueForecast/issues"
+  },
+  "homepage": "https://github.com/BenGig/MMM-meteoblueForecast#readme",
+  "dependencies": {
+    "request": "latest",
+    "underscore": "latest"
+    }
+}
