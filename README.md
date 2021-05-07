@@ -1,12 +1,12 @@
 # Module: Meteoblue Forecast
-This module displays weather forecast from www.meteoblue.com, showing low and high temperatures and wind speed, rain probability and UV index.
+This module displays weather forecast from www.meteoblue.com, showing low and high temperatures and wind speed, rain probability and UV index. Meteoblue provides very accurate data based on several forecast models and dense grids. Especially for demanding regions like the alps, the forecasts are ahead of other providers.
 
+## Access
 You'll have to get an apikey from meteoblue.com.
-https://content.meteoblue.com/en/products/meteoblue-api
+https://docs.meteoblue.com/en/apis/weather-data/introduction.
 Order the Free JSON feed.
 
-API
-https://content.meteoblue.com/en/help/technical-documentation/meteoblue-api
+API: https://docs.meteoblue.com/en/apis/weather-data/packages-api
 
 ## Using the module
 
